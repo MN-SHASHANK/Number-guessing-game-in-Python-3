@@ -8,8 +8,8 @@ print("\nYou've only ", totalchances, " chances to guess the integer!")
 countchances = 0
 flag = False
 while countchances < totalchances:
-    countchances += 1
-    guessnumber = int(input("Guess a number:-"))
+     countchances += 1
+     guessnumber = int(input("Guess a number:-"))
      if randomnumber == guessnumber:
         print("Congratulations you did it in ",countchances)
         flag = True
